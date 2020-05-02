@@ -504,6 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3891442277735039632}
   - component: {fileID: 3891442277746109278}
+  - component: {fileID: 288681910908258963}
   m_Layer: 0
   m_Name: ViewingRig
   m_TagString: Untagged
@@ -548,6 +549,18 @@ MonoBehaviour:
   yMin: -2
   xMax: 1.6
   xMin: -1.6
+--- !u!114 &288681910908258963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3891442277734817456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86baaf18f147447caf2a5edd15bd690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3891442277734817458
 GameObject:
   m_ObjectHideFlags: 0
