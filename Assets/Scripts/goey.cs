@@ -69,19 +69,19 @@ public class goey : MonoBehaviour
 			//add additional buttons/scenes here, remember to go 40 units down, and one up on the LoadLevel and "model#"
 			if (GUI.Button(new Rect(20, 20, buttonWidth, 25), model1))
 			{
-				SceneManager.LoadScene("0");
+				SceneManager.LoadScene(0);
 			}
 			if (GUI.Button(new Rect(20, 60, buttonWidth, 25), model2))
 			{
-				SceneManager.LoadScene("1");
+				SceneManager.LoadScene(1);
 			}
 			if (GUI.Button(new Rect(20, 100, buttonWidth, 25), model3))
 			{
-				SceneManager.LoadScene("2");
+				SceneManager.LoadScene(2);
 			}
 			if (GUI.Button(new Rect(20, 140, buttonWidth, 25), model4))
 			{
-				SceneManager.LoadScene("3");
+				SceneManager.LoadScene(3);
 			}
 		}
 	}
